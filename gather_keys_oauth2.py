@@ -7,7 +7,7 @@ import traceback
 import webbrowser
 
 from base64 import b64encode
-from fitbit.api import Fitbit
+from .fitbit.api import Fitbit
 from oauthlib.oauth2.rfc6749.errors import MismatchingStateError, MissingTokenError
 
 
